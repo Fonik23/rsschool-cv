@@ -25,7 +25,7 @@ Beginner developer from St. Petersburg. Now I am studying in Rs School.
 
 ### Skills:
   * HTML - Intermediate
-  * CSS = Intermediate
+  * CSS - Intermediate
   * JavaScript - Basic
 
 ### Code:
