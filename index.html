@@ -7,39 +7,129 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <main>
-    <div class="name">
-      <p>Konstantin</p>
-    </div>
-    <div class="about-me">
-      <p>*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum*</p>
-    </div>
-    <div class="education">
-      <p>*University*</p>
-    </div>
-    <div class="exp">
-      <ul class="exp__list">
-        <li class="exp__item">First work</li>
-        <li class="exp__item">Second work</li>
-        <li class="exp__item">Third work</li>
-      </ul>
-    </div>
-    <div class="lang">
-      <ul class="lang__list">
-        <li class="lang__item">Russian</li>
-        <li class="lang__item">English</li>
-      </ul>
-    </div>
-    <div class="skiils">
-      <p></p>
-    </div>
-    <div class="contacts">
-      <ul class="contacts__list">
-        <li class="contacts__item">Phone</li>
-        <li class="contacts__item">Telegramm</li>
-        <li class="contacts__item">Email</li>
-      </ul>
-    </div>
-  </main>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container container">
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">About Me</li>
+            <li class="navigation__item">languages</li>
+            <li class="navigation__item">experience</li>
+            <li class="navigation__item">education</li>
+            <li class="navigation__item">my skills</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main__container">
+        <section class="left-column column">
+          <div class="bio">
+            <img class="bio__image" src="#" alt="avatar">
+            <div class="bio__text">
+              <h1 class="bio__title">konstantin</h1>
+              <span class="bio__major">web developer</span>
+            </div>
+          </div>
+          <div class="contacts">
+            <div class="contacts__item block">
+              <span class="contacts__image"></span>
+              <span class="contacts__text"></span>
+            </div>
+            <div class="contacts__item block">
+              <span class="contacts__image"></span>
+              <span class="contacts__text"></span>
+            </div>
+            <div class="contacts__item block">
+              <span class="contacts__image"></span>
+              <span class="contacts__text"></span>
+            </div>
+            <div class="contacts__item block">
+              <span class="contacts__image"></span>
+              <span class="contacts__text"></span>
+            </div>
+          </div>
+          <div class="about-me block">
+            <h2 class="subtitle about-me__title">about me</h2>
+            <p class="about-me__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, possimus.</p>
+          </div>
+          <div class="languages block">
+            <h2 class="subtitle languages__title">languages</h2>
+            <div class="languages__item">
+              <span>Russian</span>
+              <div class="languages__dots">
+                <span class="dot filled"></span>
+                <span class="dot filled"></span>
+                <span class="dot filled"></span>
+                <span class="dot filled"></span>
+                <span class="dot filled"></span>
+              </div>
+            </div>
+            <div class="languages__item">
+              <span>English</span>
+              <div class="languages__dots">
+                <span class="dot filled"></span>
+                <span class="dot filled"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="right-column column">
+          <div class="exp">
+            <h2 class="subtitle-right exp__title">experience</h2>
+            <div class="exp__item right-block">
+              <h3 class="exp__company"></h3>
+              <span class="exp__position"></span>
+              <p class="exp__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, laborum.</p>
+            </div>
+            <div class="exp__item right-block">
+              <h3 class="exp__company"></h3>
+              <span class="exp__position"></span>
+              <p class="exp__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, laborum.</p>
+            </div>
+          </div>
+          <div class="education">
+            <h2 class="education__title subtitle-right">education</h2>
+            <div class="education-item right-block">
+              <h3 class="education__name">LTU</h3>
+              <span class="education__position">student</span>
+              <span class="education__diploma"></span>
+            </div>
+            <div class="education-item right-block">
+              <h3 class="education__name"></h3>
+              <span class="education__position">student</span>
+              <span class="education__diploma"></span>
+            </div>
+          </div>
+          <div class="my-skills">
+            <h2 class="my-skills__title subtitle-right">my skills</h2>
+            <div class="my-skills__item">
+              <div class="my-skills__logo"><span></span></div>
+            </div>
+          </div>-skills
+          <div class="code">
+            <h2 class="code__title subtitle-right">Code</h2>
+            <pre>
+              <code>
+                function sortByLength (array) {
+                  return array.sort((a, b) => a.length - b.length);
+              }
+              </code>
+            </pre>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__container container">
+        <a href="#" class="footer__git">Github</a>
+        <a href="#" class="footer__rsschool"><img src="#" alt="rs-school"></a>
+        <span class="footer__year">2024</span>
+      </div>
+    </footer>
+  </вшм>
 </body>
 </html>

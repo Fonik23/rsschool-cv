@@ -6,3 +6,98 @@
 ul {
   list-style: none;
 }
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+  padding: 0 20px 0;
+}
+
+.header {
+}
+.container {
+}
+.navigation {}
+.navigation__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation__item {}
+
+.main {
+  &__container {}
+}
+.left-column {
+}
+.column {
+}
+.bio {
+  &__image {}
+  &__text {}
+  &__title {}
+  &__major {}
+}
+.contacts {
+  &__item {}
+  &__image {}
+  &__text {}
+}
+.block {
+}
+.about-me {
+  &__title {}
+  &__text {}
+}
+.subtitle {
+}
+.languages {
+  &__title {}
+  &__item {}
+  &__dots {}
+}
+.dot {
+}
+.filled {
+}
+.right-column {
+}
+.exp {
+  &__title {}
+  &__item {}
+  &__company {}
+  &__position {}
+  &__descr {}
+}
+.subtitle-right {
+}
+.right-block {
+}
+.education {
+  &__title {}
+  &__name {}
+  &__position {}
+  &__diploma {}
+}
+.education-item {
+}
+.my-skills {
+  &__title {}
+  &__item {}
+  &__logo {}
+}
+.code {
+  &__title {}
+}
+.footer {
+  &__container {}
+  &__git {}
+  &__rsschool {}
+  &__year {}
+}
