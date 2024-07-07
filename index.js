@@ -3,6 +3,7 @@ const langMenu = document.querySelector('.navigation__item_lang');
 const expMenu = document.querySelector('.navigation__item_exp');
 const educMenu = document.querySelector('.navigation__item_educ');
 const skillsMenu = document.querySelector('.navigation__item_skills');
+const worksMenu = document.querySelector('.navigation__item_works');
 
 
 const aboutBlock = document.querySelector('.about-me')
@@ -10,8 +11,9 @@ const langBlock = document.querySelector('.languages')
 const expBlock = document.querySelector('.exp__inner')
 const educBlock = document.querySelector('.education__inner')
 const skillsBlock = document.querySelector('.my-skills__inner')
+const worksBlock = document.querySelector('.my-works')
 
-
+//left
 aboutMenu.addEventListener("mouseover", () => {
   aboutBlock.classList.add('hover')
 })
@@ -25,6 +27,14 @@ langMenu.addEventListener("mouseover", () => {
 langMenu.addEventListener("mouseout", () => {
   langBlock.classList.remove('hover')
 })
+
+worksMenu.addEventListener("mouseover", () => {
+  worksBlock.classList.add('hover')
+})
+worksMenu.addEventListener("mouseout", () => {
+  worksBlock.classList.remove('hover')
+})
+
 
 
 //Right
