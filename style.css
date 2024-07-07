@@ -164,6 +164,11 @@ body {
 .dot.filled {
   background-color: #545454;
 }
+.my-works__inner {
+  display: flex;
+  flex-direction: column;
+}
+
 .right-column {
   background-color: #fff;
   border-radius: 15px;
@@ -282,6 +287,7 @@ body {
 }
 
 .about-me.hover,
+.my-works.hover,
 .languages.hover {
   background-color: rgba(3, 56, 244, 0.71);
   transition: all .7s;
