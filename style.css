@@ -48,7 +48,11 @@ body {
   align-items: center;
   gap: 0 15px;
 }
-.navigation__item {}
+.navigation__item {
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+}
 
 .main {
   flex-grow: 1;
@@ -130,14 +134,12 @@ body {
 }
 
 
-.about-me {
-  &__title {}
-  &__text {}
-}
+
+
 .subtitle {
   font-weight: bold;
 }
-.languages {}
+
 .languages__title {}
 .languages__item {
     display: flex;
@@ -272,3 +274,15 @@ body {
 }
 
 
+.exp__inner.hover,
+.education__inner.hover,
+.my-skills__inner.hover {
+  background-color: rgba(3, 56, 244, 0.71);
+  transition: all .7s;
+}
+
+.about-me.hover,
+.languages.hover {
+  background-color: rgba(3, 56, 244, 0.71);
+  transition: all .7s;
+}
