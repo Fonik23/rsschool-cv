@@ -2,13 +2,19 @@
   margin: 0;
   padding: 0;
 }
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
 ul {
   list-style: none;
 }
-
+html,
 body {
   height: 100%;
+}
+body {
+  
   font-family: "Calibri", sans-serif;
   background-color: beige;
 }
@@ -16,10 +22,11 @@ body {
 .wrapper {
   max-width: 900px;
   margin: 0 auto;
-  height: 100%;
+  min-height: 100%;
   background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
   padding: 0 20px 0;
-  
+  display: flex;
+  flex-direction: column;
 }
 .block {
   background: rgba(196, 196, 196, 0.3);
@@ -27,8 +34,10 @@ body {
   padding: 10px;
 }
 .header {
+  height: 60px;
 }
 .header__container {
+  padding: 5px;
 }
 .navigation {
   padding: 10px;
@@ -41,7 +50,9 @@ body {
 }
 .navigation__item {}
 
-.main {}
+.main {
+  flex-grow: 1;
+}
 .main__container {
     display: flex;
     gap: 0 20px;
@@ -61,8 +72,12 @@ body {
   display: flex;
   gap: 0 40px;
   padding: 5px;
+  align-items: center;
 }
-.bio__image {}
+.bio__image {
+  width: 150px;
+  height: 150px;
+}
 .bio__text {}
 .bio__title {}
 .bio__major {}
@@ -128,6 +143,10 @@ body {
     display: flex;
     gap: 0 10px;
   }
+.languages__label {
+  display: inline-block;
+  width: 15%;
+}  
 .languages__dots {
     display: flex;
     align-items: center;
@@ -148,9 +167,16 @@ body {
   border-radius: 15px;
   padding: 10px;
 }
-.exp {}
+.exp {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .exp__title {}
-.exp__item {}
+.exp__item {
+  display: flex;
+  flex-direction: column;
+}
 .exp__company {}
 .exp__position {}
 .exp__descr {}
@@ -163,6 +189,7 @@ body {
   width: 50%;
   text-align: center;
   position: relative;
+  margin-bottom: 15px;
 }
 .subtitle-right::after{
   content: "";
@@ -180,24 +207,68 @@ body {
 .right-block {
 }
 .education {
-  &__title {}
-  &__name {}
-  &__position {}
-  &__diploma {}
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
+
+.education__title {}
+.education__name {}
+.education__position {}
+.education__diploma {}
+
 .education-item {
 }
 .my-skills {
-  &__title {}
-  &__item {}
-  &__logo {}
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.code {
-  &__title {}
+.my-skills__box {
+  display: flex;
+  gap: 10px;
 }
+.my-skills__title {}
+.my-skills__item {}
+.my-skills__logo {}
+.my-skills__image {
+  width: 80px;
+  height: 80px;
+}
+
+.code {}
+.code__title {}
+.code__box { 
+
+}
+.code__example {
+  display: block;
+  max-width: 100%;
+}
+
 .footer {
-  &__container {}
-  &__git {}
-  &__rsschool {}
-  &__year {}
+  flex-shrink: 0;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.footer__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__git ,
+.footer__year {
+  font-size: 20px;
+}
+.footer__rsschool {
+ 
+}
+.footer__image {
+  max-width: 100px;
+  max-height: 30px;
+}
+
+
