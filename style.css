@@ -99,7 +99,7 @@ body {
 .contacts__image_mail {
   width: 24px;
   height: 24px;
-  background-image: url('../images/icons/mail.svg');
+  background-image: url('./images/icons/mail.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -107,7 +107,7 @@ body {
 .contacts__image_phone {
   width: 24px;
   height: 24px;
-  background-image: url('/images/icons/call.svg');
+  background-image: url('./images/icons/call.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -115,7 +115,7 @@ body {
 .contacts__image_site {
   width: 24px;
   height: 24px;
-  background-image: url('/images/icons/group.svg');
+  background-image: url('./images/icons/group.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -123,7 +123,7 @@ body {
 .contacts__image_location {
   width: 24px;
   height: 24px;
-  background-image: url('/images/icons/vector.svg');
+  background-image: url('./images/icons/vector.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
